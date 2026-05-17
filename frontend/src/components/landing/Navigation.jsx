@@ -26,7 +26,7 @@ export default function Navigation() {
         {/* Logo */}
         <a href="#top" data-testid="nav-logo" className="flex items-center group">
           <img
-            src="/brand/coincarriere-logo.png"
+            src={`${process.env.PUBLIC_URL}/brand/coincarriere-logo.png`}
             alt="CoinCarrière"
             className="h-12 sm:h-14 w-auto object-contain select-none"
             draggable={false}
